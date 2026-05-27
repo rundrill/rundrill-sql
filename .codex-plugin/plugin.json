@@ -1,0 +1,33 @@
+{
+  "name": "rundrill-sql",
+  "version": "0.1.0",
+  "description": "SQL coach — learn to think in sets and read & review queries (incl. AI-generated), with drills, progress, and mistake memory, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com",
+    "url": "https://rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "repository": "https://github.com/rundrill/rundrill-sql",
+  "license": "CC-BY-NC-ND-4.0",
+  "keywords": ["rundrill", "course", "coach", "drills", "sql", "postgresql", "databases", "code-review"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "RunDrill SQL",
+    "shortDescription": "SQL coach: think in sets, EXPLAIN-as-teacher, read & review queries.",
+    "longDescription": "An interactive SQL coach for the AI era: predict-the-result and predict-the-plan drills, read-the-error, refactor-to-set-based, and a signature 'review the AI's SQL' drill — built to teach you to think in sets and catch the query that runs but is quietly wrong, backed by the RunDrill MCP engine with progress tracking and mistake memory. SQLite to PostgreSQL, with an optional Oracle/SQL Server dialects track.",
+    "developerName": "RunDrill",
+    "category": "Education",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://rundrill.com",
+    "defaultPrompt": [
+      "Start a SQL drill session.",
+      "Quiz me on what this query returns.",
+      "Review some AI-written SQL and let me find the bug."
+    ],
+    "brandColor": "#3B7AE0",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

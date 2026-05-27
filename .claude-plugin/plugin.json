@@ -1,0 +1,13 @@
+{
+  "name": "rundrill-sql",
+  "displayName": "RunDrill SQL",
+  "version": "0.1.0",
+  "description": "SQL coach — learn to think in sets and read & review queries (incl. AI-generated), with drills, progress, and mistake memory, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "license": "CC-BY-NC-ND-4.0",
+  "keywords": ["rundrill", "course", "coach", "drills", "sql", "postgresql", "databases", "code-review"]
+}
