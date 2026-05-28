@@ -1,7 +1,9 @@
 {
   "mcpServers": {
     "rundrill-sql": {
+      "serverURL": "https://mcp.rundrill.com/prog/sql",
       "serverUrl": "https://mcp.rundrill.com/prog/sql"
     }
   }
 }
+
