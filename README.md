@@ -30,19 +30,20 @@ manifest and ignores the rest.
 | OpenAI Codex | `.codex-plugin/plugin.json` + `.mcp.json` |
 | Google Antigravity | `plugin.json` + `mcp_config.json` (+ `rules/`) |
 
-The MCP endpoint is `https://mcp.rundrill.com/prog` — the programming-course host that SQL, Python,
-and Rust share, passing `language: "sql"`. On first use the host opens a browser tab for the OAuth
-handshake, then closes it — no API key to paste.
+The MCP endpoint is `https://mcp.rundrill.com/prog/sql` — the programming-course host, passing
+`language: "sql"`. The server routes on the `/prog` segment and ignores the course name; the name
+makes SQL register as its own MCP server in your agent. On first use the host opens a browser tab for
+the OAuth handshake, then closes it — no API key to paste.
 
 ## Install
 
 - **Claude Code / Desktop** — via the RunDrill marketplace:
   ```
-  /plugin marketplace add rundrill/marketplace
+  /plugin marketplace add rundrill/rundrill
   /plugin install rundrill-sql@rundrill
   ```
   Then run `/sql-coach`.
-- **OpenAI Codex** — `codex plugin marketplace add rundrill/marketplace`, then install `rundrill-sql`.
+- **OpenAI Codex** — `codex plugin marketplace add rundrill/rundrill`, then install `rundrill-sql`.
 - **Google Antigravity** — drop this folder into `~/.gemini/config/plugins/rundrill-sql/` (global)
   or `<workspace>/.agents/plugins/rundrill-sql/` (workspace-scoped).
 

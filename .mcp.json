@@ -2,7 +2,7 @@
   "mcpServers": {
     "rundrill-sql": {
       "type": "http",
-      "url": "https://mcp.rundrill.com/prog"
+      "url": "https://mcp.rundrill.com/prog/sql"
     }
   }
 }
